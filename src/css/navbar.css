@@ -1,0 +1,46 @@
+.navbar{
+    width: 30vw;
+    text-align: left;
+    margin-left: 7rem;
+}
+.navbar img{
+    height: 15rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    text-align:  left;
+}
+
+h4{
+    font-size: 1rem;
+
+}
+p{
+    opacity: .8;
+}
+@media only screen and (max-width: 500px) {
+    .navbar img{
+        height: 15rem;
+        border-radius: 50%;
+        margin-bottom: 3rem;
+        text-align:  center;
+        margin-top: 2rem;
+    }
+    .navbar{
+        width: 100vw;
+        text-align: left;
+     
+    }
+    h4{
+        margin-left: 1rem;
+        font-size: 22px;
+    }
+    p{
+      font-size: 22px;
+    }
+    .navbar{
+        width: 100vw;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    
+}

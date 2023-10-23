@@ -1,0 +1,43 @@
+button{
+    margin: 1rem;
+}
+.loadingEach{
+    text-align: left;
+    flex-direction:column ;
+    gap: 4rem;
+    color: grey;
+    display: flex;
+    font-size: 30px;
+   margin-top: 10rem;
+justify-content: center;
+    
+}
+.mainrepo{
+    width: 100%;
+    max-width: 70vh;
+   margin-left: 3rem;
+   margin-bottom: 4rem;
+   margin-top: 3rem;
+}
+.single{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.single div{
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+.singlerepo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid lightgrey 1px;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    height: 150px;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}

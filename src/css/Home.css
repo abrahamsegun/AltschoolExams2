@@ -1,0 +1,141 @@
+*{
+    padding: 0 5px;
+}
+h1{
+    opacity: .89;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.HeaderDiv{
+    width: 100%;
+}
+header{
+  max-width: 100vw;
+    width: 100%;
+}
+.logodiv{
+display: flex;
+align-items: center;
+flex-direction: row;
+margin: 2rem 0 3rem 0;
+justify-content: space-between;
+height: 4rem;
+max-width: 100vw;
+width: 100%;
+font-size: 25px;
+font-weight: 500;
+background-color: rgb(246,248,250);
+}
+
+.logoAside{
+    display: flex;
+  
+    gap: 10rem;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 4rem;
+
+}
+.logoAside a{
+    text-decoration: none;
+    list-style: none;
+}
+.logoAside a:active{
+    text-decoration: underline;
+    color: blue;
+}
+.logoAside a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: 500;
+}
+body {
+    background-color: lightblue;
+  }
+  @media only screen and (max-width: 900px) and (min-width: 701px) {
+    .logodiv{
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        flex-direction: row;
+        margin: 2rem 0 3rem 0;
+        justify-content: space-between;
+        height: 4rem;
+        max-width: 100vw;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgb(246,248,250);
+        }
+               
+        .logoAside{
+            display: flex;
+            gap: 4rem;
+            flex-direction: row;
+           padding-left: 0;
+            text-decoration: none;
+            list-style: none;
+            justify-content: space-between;
+        
+        }
+  }
+@media only screen and (max-width: 700px) {
+    .logodiv{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 2rem 0 3rem 0;
+        justify-content: space-between;
+        height: 4rem;
+        width: 100%;
+       margin: 0 1rem;
+       padding: 0 1rem 0 2rem;
+        font-size: 19px;
+        font-weight: 700;
+        background-color: rgb(246,248,250);
+        }
+        .logoAside{
+            display: flex;
+            flex-direction: row;
+            gap: 3rem;
+            text-decoration: none;
+            list-style: none;
+           margin-right: 3rem;
+        
+        }
+        
+        *{
+          padding: 0;
+          margin: 0 5px;
+        }
+  }
+  @media only screen and (max-width: 500px) {
+    h1{
+        margin: 2rem 0 1rem 0;
+    }
+    .logodiv{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 4rem;
+        justify-content: space-between;
+        height: 4rem;
+        max-width: 100vw;
+        width: 100%;
+        
+        font-weight: 500;
+        background-color: rgb(246,248,250);
+        }
+        .logoAside{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            list-style: none;
+            justify-content: space-between;
+            margin-right: 1rem;
+        
+        }
+  }
